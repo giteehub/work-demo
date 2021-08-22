@@ -1,0 +1,19 @@
+1.pdf导出、水印
+data-html2canvas-ignore
+https://www.mk2048.com/blog/blog_cjbc0abjb.html
+需要设置的样式：
+1.头部的最后一个gutter隐藏，col的width设置为0
+2.总的表格高度和body的高度
+3.删除最外层的el-table--scrollable-y样式
+4.设置body中的table宽度
+5.去掉html2canvas的样式
+6.1px solid #EBEEF5
+7.还要考虑横向滚动条
+
+2.下钻，暂无数据提示
+3.excel导出
+4.局部刷新，loading显示
+5.吸顶
+6.自适应问题：表格宽度、高度问题；表格最大最小值显示问题
+7.el-tabs首次全部渲染问题 v-if
+
