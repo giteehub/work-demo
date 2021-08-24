@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <PDF/>
+    <!-- <PDF/> -->
+    <tabs/>
   </div>
 </template>
 
 <script>
-import PDF from './components/PDF.vue'
+// import PDF from './components/PDF.vue'
+import tabs from './components/tabs.vue'
 
 export default {
   name: 'App',
   components: {
-    PDF
+    tabs
   }
 }
 </script>
