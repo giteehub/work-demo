@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <!-- <PDF/> -->
-    <tabs/>
+    <!-- <tabs/> -->
+    <date/>
   </div>
 </template>
 
 <script>
 // import PDF from './components/PDF.vue'
-import tabs from './components/tabs.vue'
+// import tabs from './components/tabs.vue'
+import date from './components/date.vue'
 
 export default {
   name: 'App',
   components: {
-    tabs
+    date
   }
 }
 </script>
